@@ -1,0 +1,60 @@
+{
+  "title": "The Treat Negotiation \u2014 source observations",
+  "context": "Four panels show a recurring stick-figure person and a small dog. Affection leads to suspicion that the dog is manipulating the person into giving treats; the dog appears pleased that the tactic works. Bubble wording is inspiration, not a script to read aloud.",
+  "characters": [
+    {
+      "id": "human",
+      "name": "Person",
+      "kind": "human",
+      "description": "A recurring stick figure interacting with the dog.",
+      "observed_traits": "Simple stick figure. Human age and gender are not visually established.",
+      "voice_query": "warm conversational",
+      "voice_id": null
+    },
+    {
+      "id": "dog",
+      "name": "Dog",
+      "kind": "dog",
+      "description": "Small dog, affectionate and expressive.",
+      "observed_traits": "Four-legged animal with floppy ears and a wagging tail in one panel.",
+      "voice_query": "playful expressive",
+      "voice_id": null
+    }
+  ],
+  "lines": [
+    {
+      "id": "context1",
+      "panel": 1,
+      "character_id": "dog",
+      "text": "Affection and praise are directed at the person.",
+      "emotion": "happy"
+    },
+    {
+      "id": "context2",
+      "panel": 2,
+      "character_id": "human",
+      "text": "The person appreciates the affection.",
+      "emotion": "happy"
+    },
+    {
+      "id": "context3",
+      "panel": 3,
+      "character_id": "human",
+      "text": "The person suspects a plan to get more treats.",
+      "emotion": "curious"
+    },
+    {
+      "id": "context4",
+      "panel": 4,
+      "character_id": "dog",
+      "text": "The dog suggests that the tactic is working.",
+      "emotion": "confident"
+    }
+  ],
+  "warnings": [
+    "Manually authored source summary based on the supplied example, not a live model extraction."
+  ],
+  "generated": false,
+  "tts_model": "drama-3",
+  "render_mode": "scene"
+}

@@ -1,0 +1,145 @@
+{
+  "title": "The Biscuit Negotiator",
+  "context": "Four panels show a recurring stick-figure person and a small dog. Affection leads to suspicion that the dog is manipulating the person into giving treats; the dog appears pleased that the tactic works. Bubble wording is inspiration, not a script to read aloud.",
+  "characters": [
+    {
+      "id": "human",
+      "name": "Person",
+      "kind": "human",
+      "description": "A recurring stick figure interacting with the dog.",
+      "observed_traits": "Simple stick figure. Human age and gender are not visually established.",
+      "voice_query": "warm conversational",
+      "voice_id": null,
+      "personality": "Fictional: loving, observant and determined to establish boundaries, but easily disarmed by warmth.",
+      "voice_direction": "Warm conversational voice; dry comic timing; suspicion softens into affection."
+    },
+    {
+      "id": "dog",
+      "name": "Dog",
+      "kind": "dog",
+      "description": "Small dog, affectionate and expressive.",
+      "observed_traits": "Four-legged animal with floppy ears and a wagging tail in one panel.",
+      "voice_query": "playful expressive",
+      "voice_id": null,
+      "personality": "Fictional: an affectionate little strategist who treats every biscuit as a diplomatic negotiation.",
+      "voice_direction": "Bright, nimble, playful character voice; charming confidence with small pauses before punchlines."
+    }
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "panel": 1,
+      "character_id": "human",
+      "text": "You arranged my slippers in a heart. What did you break?",
+      "emotion": "curious",
+      "direction": "Quiet suspicion; hold the last question for a beat.",
+      "pause_after_ms": 450
+    },
+    {
+      "id": "l2",
+      "panel": 1,
+      "character_id": "dog",
+      "text": "Nothing. I am celebrating your excellent taste in companions.",
+      "emotion": "confident",
+      "direction": "Earnest flattery; warm and almost excessively polite.",
+      "pause_after_ms": 250
+    },
+    {
+      "id": "l3",
+      "panel": 1,
+      "character_id": "human",
+      "text": "The biscuit cupboard is behind me, isn't it?",
+      "emotion": "sarcastic",
+      "direction": "Dry realization, slowing down on biscuit cupboard.",
+      "pause_after_ms": 550
+    },
+    {
+      "id": "l4",
+      "panel": 2,
+      "character_id": "dog",
+      "text": "That is an unfortunate coincidence. Now, about my performance review.",
+      "emotion": "nervous",
+      "direction": "Brief hesitation, then recover into businesslike confidence.",
+      "pause_after_ms": 350
+    },
+    {
+      "id": "l5",
+      "panel": 2,
+      "character_id": "human",
+      "text": "You slept through the doorbell.",
+      "emotion": "calm",
+      "direction": "Matter of fact; let the accusation land.",
+      "pause_after_ms": 300
+    },
+    {
+      "id": "l6",
+      "panel": 2,
+      "character_id": "dog",
+      "text": "I was protecting the house from unnecessary visitors.",
+      "emotion": "confident",
+      "direction": "Prompt, proud reply as if the logic is impeccable.",
+      "pause_after_ms": 450
+    },
+    {
+      "id": "l7",
+      "panel": 2,
+      "character_id": "human",
+      "text": "And stole my sandwich.",
+      "emotion": "frustrated",
+      "direction": "Sharper, but still playful; short and clipped.",
+      "pause_after_ms": 300
+    },
+    {
+      "id": "l8",
+      "panel": 2,
+      "character_id": "dog",
+      "text": "Quality control. You are welcome.",
+      "emotion": "confident",
+      "direction": "Gentle smugness; leave a small comic beat between sentences.",
+      "pause_after_ms": 650
+    },
+    {
+      "id": "l9",
+      "panel": 3,
+      "character_id": "human",
+      "text": "One biscuit. And one honest answer. Would you still love me without them?",
+      "emotion": "soft tone",
+      "direction": "The joke falls away; sincere, softer, unhurried.",
+      "pause_after_ms": 700
+    },
+    {
+      "id": "l10",
+      "panel": 3,
+      "character_id": "dog",
+      "text": "Of course.",
+      "emotion": "calm",
+      "direction": "Immediate warmth and complete sincerity.",
+      "pause_after_ms": 650
+    },
+    {
+      "id": "l11",
+      "panel": 3,
+      "character_id": "dog",
+      "text": "But I would write a strongly worded letter.",
+      "emotion": "happy",
+      "direction": "Soft, conspiratorial finish; smile in the voice.",
+      "pause_after_ms": 350
+    },
+    {
+      "id": "l12",
+      "panel": 3,
+      "character_id": "human",
+      "text": "Come here, you tiny lawyer.",
+      "emotion": "happy",
+      "direction": "Warm affection with a small amused breath.",
+      "pause_after_ms": 300
+    }
+  ],
+  "warnings": [
+    "Handwritten example of an original directed story; not a live model result."
+  ],
+  "generated": true,
+  "tts_model": "drama-3",
+  "render_mode": "scene",
+  "synopsis": "A dog tries to turn household affection into a formal treat contract. The person catches on, but discovers that the affection is real too."
+}
