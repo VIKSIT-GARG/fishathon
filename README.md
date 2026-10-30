@@ -2,6 +2,14 @@
 
 An image supplies the characters and story seed. Google Gemini 3.8 Flash separates visible facts from invented personality, writes an original story, and directs the performance. Fish Audio speaks the finished drama using **s2.1-pro-free** or **drama-3**, selectable in the dashboard.
 
+## Demo
+
+[Watch or download the Drama 3 demo](demo/PanelCast-Drama3-Demo.mp4) — 76 seconds, 1080p, with a narrated walkthrough, animated cursor, camera-follow motion, click effects, synchronized captions, and the generated character performance.
+
+![Animated cursor preview](demo/cursor-preview.gif)
+
+See [demo files and production notes](demo/README.md) for captions and the standalone audio master.
+
 ## Start
 
 Requirements: Python 3.10+, internet access, a Gemini API key with access to `gemini-3.8-flash`, and your Fish API key. No local model, GPU, or Ollama installation is required. Drama 3 requires your account to have access and credit; the free development model is subject to Fish's limits.
